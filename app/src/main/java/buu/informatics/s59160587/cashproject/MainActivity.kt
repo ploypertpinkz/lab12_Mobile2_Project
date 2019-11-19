@@ -18,6 +18,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun gotoOpenBankPage() {
+        Log.i("Login Page", "gotoOpenBankPage Called")
+
         if(inputIdText.length() != 0 && inputPassText.length() != 0) {
             if(inputIdText.text.toString() == "ploy" && inputPassText.text.toString() == "12345") {
                 Toast.makeText(this, "gotoOpenBank", Toast.LENGTH_SHORT).show()

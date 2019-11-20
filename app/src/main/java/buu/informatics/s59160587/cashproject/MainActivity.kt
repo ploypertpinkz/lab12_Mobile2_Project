@@ -6,6 +6,7 @@ import android.util.Log
 import android.widget.Button
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
+import timber.log.Timber
 
 class MainActivity : AppCompatActivity() {
 
@@ -18,7 +19,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun gotoOpenBankPage() {
-        Log.i("Login Page", "gotoOpenBankPage Called")
+        Timber.i("gotoOpenBankPage Called")
 
         if(inputIdText.length() != 0 && inputPassText.length() != 0) {
             if(inputIdText.text.toString() == "ploy" && inputPassText.text.toString() == "12345") {

@@ -24,7 +24,7 @@
             android:id="@+id/aboutBankLabel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="About"
+            android:text="@string/aboutText"
             android:textAlignment="center"
             android:textSize="36sp" />
 

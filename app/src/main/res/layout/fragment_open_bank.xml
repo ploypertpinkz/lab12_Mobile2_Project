@@ -25,7 +25,7 @@
             android:id="@+id/openBankButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Open Bank"
+            android:text="@string/openbankText"
             android:textAlignment="center"
             android:textSize="30sp"
             android:textStyle="bold" />

@@ -6,4 +6,7 @@
     <string name="mybankText">My Bank</string>
     <string name="aboutbankText">My Bank helps you to save income and expenses.
 And helps to calculate your income effectively </string>
+    <string name="openbankText">Open Bank</string>
+    <string name="aboutText">About</string>
+    <string name="loginText">Login</string>
 </resources>
